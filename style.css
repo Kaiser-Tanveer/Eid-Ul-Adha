@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    background-color: rgb(55, 55, 246);
+}
+
+nav > ul{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 10px 0;
+    border: 2px solid rgb(55, 55, 246);
+
+}
+
+nav ul li:hover{
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.nav-bar:hover .dropdown{
+    display: block;
+    position: absolute;
+}
+
+.dropdown{
+    display: none;
+}
+
+.dropdown li{
+    border: 1px solid gray;
+    background-color: #EF233C;
+}
+
+
+
+/* Nav Ends */
+
+
+
+.main{
+    background-image: url(./image/Eddited-top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    color: #ffffff;
+}
+
+.top{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75p;
+}
+
+p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.btn{
+    background-color: #EF233C;
+    padding: 16px 12px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    gap: 8px;
+}
+
+.btn:hover{
+    background-color: #ffffff;
+    color: #EF233C;
+    border: 2px solid #EF233C;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.happiness-main{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.happiness-sub{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+h2{
+    padding: 20px 0;
+    font-size: 40px;
+}
+
+.happiness-sub video{
+    width: 100%;
+    height: 500px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+}
+
+.happiness-main2{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+/* Footer Starts */
+footer{
+    background-color: rgb(14, 20, 30);
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+footer p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 10px;
+    padding-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a{
+    color: #ffffff;
+}
+
+.icons .fa{
+    padding: 10px 10px;
+    font-size: 20px;
+    border: 2px solid rgb(14, 20, 30);
+    border-radius: 5px;
+    margin: 0 20px;
+}
+
+.icons .fa:hover{
+    border: 2px solid #EF233C;
+    border-radius: 5px;
+    color: #EF233C;
+}
+
+/* footer ends */
+
+
+
+
+/* Greeting Starts */
+
+.changed-bg{
+    background-image: url(./image/—Pngtree—eid\ al\ adha\ 2022_8129629.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.changed-bg{
+    background-image: url(./image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.greeting{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.greeting h2{
+    padding: 40px;
+}
+
+.greeting-main{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.quarter{
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.quarter img{
+    width: 100%;
+}
+
+/* Greeting Ends */
+
+
+
+
+
+/* Quote Starts */
+
+.quotes{
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.main-qoute{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.half-quote{
+    width: 30%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.half-quote p{
+    font-size: 14px;
+    text-align: left;
+    color: #555;
+}
+
+.mid-col{
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+}
+
+/* Quote Ends */
+
+
+
+
+
+/* Prayer Starts */
+
+.prayers{
+    padding: 50px 0;
+}
+
+.prayer-main{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.how-to-title{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.how-to{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.prayer-half{
+    width: 40%;
+    padding: 0 20px;
+    margin: 0 20px;
+}
+
+.prayer-half img{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+/* Prayer Ends */
+
+
+
+
+.about{
+    padding: 100px 0;
+}
+
+.who{
+    width: 70%;
+    display: flex;
+    margin: auto;
+}
+
+.we-are{
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+    /* border-left: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+    border-top: 1px solid darkgray;
+    border-right: 1px solid darkgray; */
+    border-radius: 0 50px 0 0;
+}
+
+.we-are:hover{
+    box-shadow: 2px 8px 30px gray;
+    transition: 0.5s;
+}
+
+.we-are img{
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+}
