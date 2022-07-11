@@ -5,7 +5,7 @@
 }
 
 nav{
-    background-color: rgb(55, 55, 246);
+    background-color: #208bbd;
 }
 
 nav > ul{
@@ -16,14 +16,15 @@ align-items: center;
 
 nav ul li{
     list-style: none;
-    padding: 10px 0;
-    border: 2px solid rgb(55, 55, 246);
+    padding: 10px;
+    border: 2px solid #208bbd;
 
 }
 
 nav ul li:hover{
-    border: 2px solid darkgrey;
+    border: 2px solid #ffffff;
     border-radius: 5px;
+    background-color: darkgrey;
 
 }
 
@@ -344,6 +345,8 @@ h2{
 .we-are:hover{
     box-shadow: 2px 8px 30px gray;
     transition: 0.5s;
+    border-top: 1px solid goldenrod;
+    border-right: 1px solid goldenrod;
 }
 
 .we-are img{
